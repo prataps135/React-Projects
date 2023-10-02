@@ -1,0 +1,66 @@
+:root{
+    --grey:#5A5959;
+}
+h1,p{
+    margin: 0;
+}
+.hero{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    height: calc(100vh - 88px);
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.hero-content h1{
+    font-weight: 800;
+    font-size: 108px;
+    line-height: 102px;
+}
+
+.hero-content > p {
+    font-weight: 600;
+    color: var(--grey);
+    max-width: 400px;
+}
+
+.hero-btn{
+    display: flex;
+    gap:40px;
+}
+
+#primary-btn{
+    all:unset;
+    padding: 6px 16px;
+    background-color: var(--red);
+    height: 32px;
+    color:white;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#secondary-btn{
+    all:unset;
+    padding: 6px 16px;
+    background-color: transparent;
+    height: 32px;
+    color:var(--grey);
+    font-weight: 500;
+    border: 1px solid var(--grey);
+    font-size: 24px;
+}
+
+.shopping-brand p{
+    font-size: 14px;
+}
+
+.shopping-btn{
+    display: flex;
+    gap: 16px;
+}

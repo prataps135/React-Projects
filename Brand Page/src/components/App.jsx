@@ -1,15 +1,14 @@
-// eslint-disable-next-line no-unused-vars
-import React from "react";
-import "./App.css";
+import "./styles/App.css";
+import Header from "./Header";
+import HeroSection from "./Hero";
 
 function App() {
-
-
   return (
-    <>
-      Hello world
-    </>
-  )
+    <div>
+      <Header />
+      <HeroSection />
+    </div>
+  );
 }
 
-export default App
+export default App;
